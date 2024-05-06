@@ -38,7 +38,7 @@ def moduloPower(a, i, N):
         i //= 2  # Use integer division for Python 3
     return val
 
-def pollardRhoAttack(a, N, B):
+def PollardRhoAttack(a, N, B):
     """ Implementation of Pollard's Rho - 1 Attack """
     """ Worst Case Complexity: O( ( B * log(B) + log(N) ) * log^2(N) ) """
 
@@ -68,6 +68,6 @@ if __name__ == '__main__':
     ### "bound" for the attack
     B = int(sys.argv[2])
 
-    if not pollardRhoAttack(a, N, B):
+    if not PollardRhoAttack(a, N, B):
         print(MSG[CODE_FAIL])
 
