@@ -5,7 +5,7 @@ The prime factorization is displayed in the format (prime1, prime2).
 
 **Usage**
 
-python3 pollardRhoAttack.py <N> <B> 
+python3 pollardRhoAttack.py N B
 
 where, N is the large prime and B is the bound
 
